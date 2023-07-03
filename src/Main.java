@@ -11,6 +11,7 @@ public class Main {
     public static void task1() {
         System.out.println("Задача 1");
 
+
         String firstName = "Ivan";
         String middleName = "Ivanovich";
         String lastName = "Ivanov";
@@ -23,17 +24,20 @@ public class Main {
     public static void task2() {
         System.out.println("Задача 2");
 
+
         String firstName = "Ivan";
         String middleName = "Ivanovich";
         String lastName = "Ivanov";
         String fullName = String.format("%s %s %s", lastName.toUpperCase(),
                 firstName.toUpperCase(),
                 middleName.toUpperCase());
+
         System.out.println(fullName);
     }
 
     public static void task3() {
         System.out.println("Задача 3");
+
 
         String firstName = "Семён";
         String middleName = "Семёнович";
